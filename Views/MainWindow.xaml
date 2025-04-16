@@ -1,0 +1,14 @@
+﻿<Window x:Class="guessing_app.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:guessing_app"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920" Background="DarkSeaGreen" WindowState="Maximized" >
+    <Grid>
+        <Button Name="pcPath" Command="{Binding SelectImageCommand}" Content="Insert from your pc" FontSize="20" HorizontalAlignment="Center" Height="86" Margin="0,598,0,0" VerticalAlignment="Top" Width="764"/>
+        <Button Name="urlPath" Content="insert by URL" FontSize="20" HorizontalAlignment="Center" Height="86" Margin="0,722,0,0" VerticalAlignment="Top" Width="764"/>
+
+    </Grid>
+</Window>
